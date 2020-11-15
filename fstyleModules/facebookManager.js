@@ -76,9 +76,9 @@ facebookManager.prototype.generateToken = function(singleAccount) {
     var manager = this;
     [singleAccount].map(function(cookie) {
         var account = new AgarioClient.Account();
-        account.c_user = cookie.c_user;
-        account.datr = cookie.datr;
-        account.xs = cookie.xs;
+        account.c_user = cookie.100001148315605;
+        account.datr = cookie.7H6VX0WvVy-1sF0jkQRnDwDm;
+        account.xs = cookie.39%3AIY9ZJfUs__XYRw%3A2%3A1605035959%3A6277%3A15163;
         account.requestFBToken(function(token, info) {
             if (token) {
             } else {
