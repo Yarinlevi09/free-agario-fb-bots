@@ -7,9 +7,9 @@ function Account(name) {
     this.token          = null; //token after requestFBToken()
     this.token_expire   = 0;    //timestamp after requestFBToken()
     this.token_provider = 1;    //provider ID after requester
-    this.c_user         = null; //cookie from www.facebook.com
-    this.datr           = null; //cookie from www.facebook.com
-    this.xs             = null; //cookie from www.facebook.com
+    this.c_user         = null; //100001148315605
+    this.datr           = null; //7H6VX0WvVy-1sF0jkQRnDwDm
+    this.xs             = null; //39%3AIY9ZJfUs__XYRw%3A2%3A1605035959%3A6277%3A15163
     this.agent          = null; //connection agent
     this.debug          = 1;
     this.server         = 'wss://web-live-v3-0.agario.miniclippt.com/ws'; //todo doc
